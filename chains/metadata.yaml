@@ -1,0 +1,30 @@
+flowtestnet:
+  chainId: 545
+  displayName: Flowtestnet
+  domainId: 545
+  isTestnet: true
+  name: flowtestnet
+  nativeToken:
+    decimals: 18
+    name: Ether
+    symbol: ETH
+  protocol: ethereum
+  rpcUrls:
+    - http: https://testnet.evm.nodes.onflow.org
+  transactionOverrides:
+    maxFeePerGas: 300000000000
+    maxPriorityFeePerGas: 70000000000
+
+basesepolia:
+  chainId: 84532
+  displayName: Basesepolia
+  domainId: 84532
+  isTestnet: true
+  name: basesepolia
+  nativeToken:
+    decimals: 18
+    name: Ether
+    symbol: ETH
+  protocol: ethereum
+  rpcUrls:
+    - http: https://sepolia.base.org
